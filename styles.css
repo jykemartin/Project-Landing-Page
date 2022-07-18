@@ -1,0 +1,85 @@
+.upper {
+    background-color:  #1F2937;
+}
+
+
+.header {
+    background-color: #1F2937;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.header-logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+    align-self: center;
+}
+.header-links{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+    a:link { text-decoration: none;
+            color: #E5E7EB;}
+
+
+    a:visited { text-decoration: none; }
+
+
+    a:hover { text-decoration: none;
+            color: red }
+
+
+    a:active { text-decoration: none;
+            color:blueviolet }
+
+.introduction{
+    background-color: #1F2937;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+    padding: 50px;
+    margin: 10px;
+}
+.left.introduction{
+    gap: 100px;
+    align-self: space-between;
+
+}
+
+.intro-one{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8
+
+}
+.intro-two{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.reg{
+    color: white;
+    background-color: rgba(104, 85, 224, 1);
+    height: 25px;
+    width: 100px;
+    border-radius: 4px;
+}
+button:hover {
+    color: white;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: rgba(104, 85, 224, 1);
+  }
+ 
