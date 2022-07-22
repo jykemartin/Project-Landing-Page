@@ -8,7 +8,7 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
     margin: 10px;
     
 }
@@ -52,11 +52,12 @@
 
     padding: 50px;
     margin: 10px;
-    gap: 25px;
+    gap: 40px;
 }
 .left.introduction{
-    gap: 100px;
+    gap: 200px;
     align-self: space-between;
+    margin-bottom: 50px;
 
 }
 
@@ -69,8 +70,9 @@
 .intro-two{
     font-size: 18px;
     color: #E5E7EB;
+
 }
-.reg{
+.reg,.Sign-Up{
     color: white;
     background-color: rgba(104, 85, 224, 1);
     height: 25px;
@@ -104,33 +106,43 @@ button:hover {
     display: flex;
     flex-direction: row;
     align-self: center;
-    gap: 50px;
+    gap: 30px;
 }
-.Triangle, .Circle, .Square, .Cross {
+.Play-button {
+    object-fit: cover;
     border: 5px solid;
-    border-color: #3882F6;
+    border-color: #000000;
     padding: 15px;
+    border-radius: 15px;
 
 }
+.h3{ 
+    text-align: center;
+    max-width:max-content;
+}
+   
+
 .Services {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 50px;
+    padding: 100px 500px;
     gap: 20px;
 }
 .Services-Quote{
     font-size: 36px;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
+    align-self: center;
 }
 .Services-Author{
-    font-size: 36px;
+    font-size: 18px;
     font-style: Bold;
+    font-weight: bolder;
     color: #1F2937;
-    align-items: flex-end;
+    align-self: flex-end;
 }
 .Join{
     display: flex;
@@ -161,4 +173,14 @@ button:hover {
     color: #F9FAF8;
     align-self: flex-start;
 
+ }
+ .Credits {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 50px;
  }
